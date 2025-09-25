@@ -198,10 +198,27 @@ footer {
   text-decoration: underline;
 }
 
+/* WhatsApp phone */
+.phone-contact {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.whatsapp-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+  color: #25D366;
+}
+
+.whatsapp-link:hover {
+  text-decoration: underline;
+}
+
 .whatsapp-icon {
   height: 20px;
   width: 20px;
-  vertical-align: middle;
-  margin-right: 5px;
 }
+
 
