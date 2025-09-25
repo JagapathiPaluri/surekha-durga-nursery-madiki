@@ -160,60 +160,97 @@ header nav a:hover {
 }
 
 /* Contact Section */
+.contact {
+  background: url("images/amazon-forest-contact.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 50px 20px;
+  text-align: center; /* Center all content */
+}
+
 .contact-info {
   display: flex;
-  flex-direction: column; /* stack vertically */
-  align-items: flex-start; /* left align */
-  color: #000; /* black text for visibility */
-  gap: 8px;
-  padding: 10px 0;
+  flex-direction: column;
+  align-items: center; /* Center all items */
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .contact-info a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
 .contact-info a:hover {
+  color: #25D366; /* WhatsApp green hover */
   text-decoration: underline;
-  color: #25D366; /* WhatsApp green for hover */
 }
 
-/* WhatsApp link styling */
 .phone-contact {
-  display: inline-flex; /* keep icon + number inline */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center WhatsApp phone */
+  gap: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.whatsapp-link {
+  display: flex;
   align-items: center;
   gap: 5px;
+  color: #25D366;
+  text-decoration: none;
+}
+
+.whatsapp-link:hover {
+  text-decoration: underline;
 }
 
 .whatsapp-icon {
-  width: 20px;
-  height: 20px;
   flex-shrink: 0;
-}
-
-.phone-contact span {
-  font-weight: bold;
 }
 
 /* Footer */
 footer {
-  background-color: #333;
-  color: white;
+  background-color: #333; /* Change to #fff if you want white background */
+  color: white;           /* Change to #333 if background is white */
   text-align: center;
   padding: 20px 0;
 }
 
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
 .social-links a {
-  margin: 0 10px;
-  color: #4CAF50;
-  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
   text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.social-links a svg {
+  width: 22px;
+  height: 22px;
 }
 
 .social-links a:hover {
-  color: #388E3C;
-  text-decoration: underline;
+  transform: scale(1.2);
+  color: #25D366; /* Optional: WhatsApp green on hover */
 }
 
 /* WhatsApp phone */
@@ -224,7 +261,7 @@ footer {
   gap: 8px;
   font-size: 16px;
   margin: 10px 0;
-  color: #fff;
+  color: #fff; /* Change to #000 if footer background is white */
 }
 
 .phone-contact span {
@@ -247,6 +284,3 @@ footer {
 .whatsapp-icon {
   flex-shrink: 0; /* keep fixed size */
 }
-
-
-
