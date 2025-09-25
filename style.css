@@ -159,40 +159,32 @@ header nav a:hover {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
 }
 
-/* Contact Section */
-.contact {
-  background: url("images/amazon-forest-contact.jpg") no-repeat center center;
-  background-size: cover;
-  color: white;
-  padding: 50px 20px;
-  text-align: center; /* Center all content */
-}
-
+/* Contact Info */
 .contact-info {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center all items */
+  align-items: center;
   gap: 10px;
-  margin-top: 20px;
+  text-align: center;
 }
 
 .contact-info a {
-  color: #fff;
+  color: #25D366;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .contact-info a:hover {
-  color: #25D366; /* WhatsApp green hover */
   text-decoration: underline;
 }
 
+/* WhatsApp phone */
 .phone-contact {
   display: flex;
   align-items: center;
-  justify-content: center; /* Center WhatsApp phone */
-  gap: 8px;
+  justify-content: center;
+  gap: 5px;
   font-size: 16px;
-  font-weight: bold;
   color: #fff;
 }
 
@@ -200,6 +192,7 @@ header nav a:hover {
   display: flex;
   align-items: center;
   gap: 5px;
+  font-weight: bold;
   color: #25D366;
   text-decoration: none;
 }
@@ -212,101 +205,45 @@ header nav a:hover {
   flex-shrink: 0;
 }
 
+/* Google Earth Embed */
+.google-earth-embed {
+  width: 400px;
+  height: 300px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
 /* Footer */
 footer {
-  background-color: #333; /* Change to #fff if you want white background */
-  color: white;           /* Change to #333 if background is white */
+  background-color: #333;
+  color: white;
   text-align: center;
   padding: 20px 0;
 }
 
-footer p {
-  margin: 0;
-  font-size: 14px;
-}
-
-/* Social Links */
 .social-links {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 15px;
+  gap: 20px;
   margin-top: 10px;
 }
 
 .social-links a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: inherit;
+  color: #4CAF50;
+  font-size: 14px;
   text-decoration: none;
-  transition: transform 0.2s;
-}
-
-.social-links a svg {
-  width: 22px;
-  height: 22px;
-}
-
-.social-links a:hover {
-  transform: scale(1.2);
-  color: #25D366; /* Optional: WhatsApp green on hover */
-}
-
-/* WhatsApp phone */
-.phone-contact {
-  display: flex;
-  align-items: center;
-  justify-content: center; /* center horizontally */
-  gap: 8px;
-  font-size: 16px;
-  margin: 10px 0;
-  color: #fff; /* Change to #000 if footer background is white */
-}
-
-.phone-contact span {
-  font-weight: bold;
-}
-
-.whatsapp-link {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  font-weight: bold;
-  color: #25D366;
-  text-decoration: none;
-}
-
-.whatsapp-link:hover {
-  text-decoration: underline;
-}
-
-.whatsapp-icon {
-  flex-shrink: 0; /* keep fixed size */
-}
-
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 10px;
-}
-
-.social-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-decoration: none;
-  color: white; /* text color */
-  font-size: 14px;
-  transition: transform 0.2s;
+  gap: 4px;
 }
 
-.social-item:hover {
-  transform: translateY(-3px);
+.social-links a img {
+  display: block;
 }
 
-.social-item span {
-  margin-top: 5px;
+.social-links a:hover {
+  color: #388E3C;
+  text-decoration: underline;
 }
-
