@@ -9,7 +9,7 @@ body {
 
 /* Header */
 header {
-  background-color: #ffffff;
+  background-color: #222;
   color: #333;
   display: flex;
   justify-content: space-between;
@@ -236,7 +236,7 @@ header nav a:hover {
 
 /* Footer */ 
 footer {
-  background-color: #faf2f2;
+  background-color: #faf7f7;
   color: white;
   padding: 20px;
   text-align: center; /* Center the text */
