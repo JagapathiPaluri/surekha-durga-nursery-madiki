@@ -200,25 +200,26 @@ footer {
 
 /* WhatsApp phone */
 .phone-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* center horizontally */
+  gap: 8px;
   font-size: 16px;
   margin: 10px 0;
-  display: flex;        /* put everything in one row */
-  align-items: center;  /* align vertically in center */
-  justify-content: center; /* center align (optional, remove if you want left-aligned) */
-  gap: 8px;             /* spacing between items */
+  color: #fff;
 }
 
 .phone-contact span {
   font-weight: bold;
-  color: #fff; /* keep same text color as contact section */
 }
 
 .whatsapp-link {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 5px;
   font-weight: bold;
   color: #25D366;
+  text-decoration: none;
 }
 
 .whatsapp-link:hover {
@@ -226,8 +227,8 @@ footer {
 }
 
 .whatsapp-icon {
-  height: 20px;
-  width: 20px;
+  flex-shrink: 0; /* keep fixed size */
 }
+
 
 
