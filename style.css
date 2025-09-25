@@ -43,7 +43,7 @@ header nav a:hover {
 
 /* Welcome Banner */
 .welcome-banner {
-  background: url("images/amazon-forest-welcome.jpg") no-repeat center center;
+  background: url("images/jagadeep-rishi-welcome.jpg") no-repeat center center;
   background-size: cover;
   height: 250px;
   display: flex;
@@ -86,7 +86,7 @@ header nav a:hover {
 
 /* Hero section */
 .hero {
-  background: url("images/amazon-forest.jpg") no-repeat center center/cover;
+  background: url("images/sun-light.jpg") no-repeat center center/cover;
   color: white;
   text-align: center;
   padding: 100px 20px;
@@ -146,7 +146,7 @@ header nav a:hover {
 /* About section */
 .about {
   padding: 50px 20px;
-  background: url("images/amazon-forest-about.jpg") no-repeat center center/cover;
+  background: url("images/nursery-about.jpg") no-repeat center center/cover;
   color: white;
   text-align: center;
 }
@@ -163,7 +163,7 @@ header nav a:hover {
 /* Contact Info */
 .contact {
   position: relative;
-  background: url("images/amazon-forest-contact.jpg") no-repeat center center;
+  background: url("images/nursery-contact.jpg") no-repeat center center;
   background-size: cover;
   color: white;
   padding: 50px 20px;
