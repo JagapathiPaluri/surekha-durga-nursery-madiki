@@ -254,7 +254,7 @@ header nav a:hover {
 /* Footer */ 
 footer {
   background-color: white;
-  color: #0a0a0a;
+  color: black;
   padding: 20px;
   text-align: center; /* Center the text */
 }
@@ -262,6 +262,7 @@ footer {
 footer p {
   margin: 0;
   font-size: 14px;
+  color: black;
 }
 
 .social-links {
@@ -276,15 +277,17 @@ footer p {
   flex-direction: column;
   align-items: center;
   text-decoration: none;
-  color: #111112; /* text color */
+  color: black; /* text color */
   font-size: 14px;
   transition: transform 0.2s;
 }
 
 .social-item:hover {
   transform: translateY(-3px);
+  text-decoration: underline;
 }
 
 .social-item span {
   margin-top: 5px;
+  color: black;
 }
