@@ -45,7 +45,7 @@ header nav a:hover {
 .welcome-banner {
   background: url("images/jagadeep-rishi-welcome.jpg") no-repeat center center;
   background-size: cover;
-  height: 550px;
+  height: 650px;
   display: flex;
   align-items: top;
   justify-content: flex-start;
