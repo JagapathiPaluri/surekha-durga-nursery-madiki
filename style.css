@@ -253,8 +253,8 @@ header nav a:hover {
 
 /* Footer */ 
 footer {
-  background-color: #0a0a0a;
-  color: white;
+  background-color: white;
+  color: #0a0a0a;
   padding: 20px;
   text-align: center; /* Center the text */
 }
