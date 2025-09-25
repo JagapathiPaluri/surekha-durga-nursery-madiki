@@ -202,6 +202,15 @@ footer {
 .phone-contact {
   font-size: 16px;
   margin: 10px 0;
+  display: flex;        /* put everything in one row */
+  align-items: center;  /* align vertically in center */
+  justify-content: center; /* center align (optional, remove if you want left-aligned) */
+  gap: 8px;             /* spacing between items */
+}
+
+.phone-contact span {
+  font-weight: bold;
+  color: #fff; /* keep same text color as contact section */
 }
 
 .whatsapp-link {
