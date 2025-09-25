@@ -160,23 +160,29 @@ header nav a:hover {
 }
 
 /* Contact section */
-.contact {
-  padding: 50px 20px;
-  background: url("images/amazon-forest-contact.jpg") no-repeat center center/cover;
-  color: white;
-  text-align: center;
+/* General contact links */
+.contact-info a {
+  color: #000;               /* Black text */
+  text-decoration: none;     /* Remove underline by default */
 }
 
-.contact h2 {
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+.contact-info a:hover {
+  text-decoration: underline;  /* Show underline on hover */
+  color: #25D366;              /* Optional: WhatsApp green for hover */
 }
 
-.contact p, .contact a {
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
-  color: white;
+/* Special case for WhatsApp SVG to align nicely */
+.whatsapp-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;   /* space between icon and number */
   text-decoration: none;
 }
+
+.whatsapp-link:hover {
+  text-decoration: underline; /* underline only the text, not the icon */
+}
+
 
 /* Footer */
 footer {
