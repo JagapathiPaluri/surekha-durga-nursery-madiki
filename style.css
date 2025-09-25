@@ -12,34 +12,26 @@ header {
   background-color: #4CAF50;
   color: white;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-
-.logo-title {
-  display: flex;
   align-items: center;
+  padding: 10px 20px;
 }
 
-.logo-title img {
-  height: 50px;
-  margin-right: 15px;
-}
-
-header h1 {
+header .header-title h1 {
   margin: 0;
   font-size: 22px;
+}
+
+header nav {
+  display: flex;
+  gap: 20px;
 }
 
 header nav a {
   color: white;
   text-decoration: none;
-  margin: 0 12px;
   font-weight: bold;
+  font-size: 16px;
 }
 
 header nav a:hover {
@@ -50,12 +42,12 @@ header nav a:hover {
 .welcome-banner {
   background: url("images/amazon-forest-welcome.jpg") no-repeat center center;
   background-size: cover;
-  height: 350px;
+  height: 250px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding: 0 50px;
   position: relative;
-  text-align: center;
   color: white;
 }
 
@@ -66,7 +58,7 @@ header nav a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.3);
   z-index: 0;
 }
 
@@ -74,22 +66,22 @@ header nav a:hover {
   position: relative;
   z-index: 1;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  gap: 20px;
 }
 
 .welcome-banner .welcome-logo {
-  height: 80px;
-  margin-bottom: 15px;
+  height: 100px;
+  width: auto;
 }
 
 .welcome-banner h1 {
-  font-size: 36px;
+  font-size: 28px;
   text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
   margin: 0;
 }
 
-/* Hero Section */
+/* Hero section */
 .hero {
   background: url("images/amazon-forest.jpg") no-repeat center center/cover;
   color: white;
@@ -109,7 +101,7 @@ header nav a:hover {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
 }
 
-/* Plants Section */
+/* Plants section */
 .plants {
   padding: 50px 20px;
   background-color: #ffffff;
@@ -148,81 +140,40 @@ header nav a:hover {
   color: #555;
 }
 
-/* About Section */
+/* About section */
 .about {
   padding: 50px 20px;
-  background: url("images/amazon-forest-about.jpg") no-repeat center center;
-  background-size: cover;
+  background: url("images/amazon-forest-about.jpg") no-repeat center center/cover;
   color: white;
   text-align: center;
-  position: relative;
-}
-
-.about::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.4);
-  z-index: 0;
-}
-
-.about * {
-  position: relative;
-  z-index: 1;
 }
 
 .about h2 {
   margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
 }
 
-/* Contact Section */
+.about p {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
+/* Contact section */
 .contact {
   padding: 50px 20px;
-  background: url("images/amazon-forest-contact.jpg") no-repeat center center;
-  background-size: cover;
+  background: url("images/amazon-forest-contact.jpg") no-repeat center center/cover;
   color: white;
   text-align: center;
-  position: relative;
-}
-
-.contact::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.4);
-  z-index: 0;
-}
-
-.contact * {
-  position: relative;
-  z-index: 1;
 }
 
 .contact h2 {
   margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
 }
 
-/* Social Links */
-.social-links a {
-  margin: 0 10px;
-  color: #4CAF50;
-  font-size: 18px;
+.contact p, .contact a {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+  color: white;
   text-decoration: none;
-}
-
-.social-links a i {
-  margin-right: 5px;
-}
-
-.social-links a:hover {
-  color: #388E3C;
-  text-decoration: underline;
 }
 
 /* Footer */
@@ -231,4 +182,16 @@ footer {
   color: white;
   text-align: center;
   padding: 20px 0;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #4CAF50;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #388E3C;
+  text-decoration: underline;
 }
