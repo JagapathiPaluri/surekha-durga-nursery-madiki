@@ -160,6 +160,13 @@ header nav a:hover {
 }
 
 /* Contact Info */
+.contact {
+  padding: 50px 20px;
+  background: url("images/amazon-forest-contact.jpg") no-repeat center center/cover;
+  color: #000;
+  text-align: center;
+}
+
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -185,7 +192,8 @@ header nav a:hover {
   justify-content: center;
   gap: 5px;
   font-size: 16px;
-  color: #fff;
+  color: #25D366;
+  margin: 10px 0;
 }
 
 .whatsapp-link {
@@ -205,15 +213,6 @@ header nav a:hover {
   flex-shrink: 0;
 }
 
-/* Google Earth Embed */
-.google-earth-embed {
-  width: 400px;
-  height: 300px;
-  border: none;
-  margin-top: 10px;
-  border-radius: 8px;
-}
-
 /* Footer */
 footer {
   background-color: #333;
@@ -230,7 +229,7 @@ footer {
 }
 
 .social-links a {
-  color: #4CAF50;
+  color: #fff;
   font-size: 14px;
   text-decoration: none;
   display: flex;
@@ -244,6 +243,6 @@ footer {
 }
 
 .social-links a:hover {
-  color: #388E3C;
+  color: #4CAF50;
   text-decoration: underline;
 }
