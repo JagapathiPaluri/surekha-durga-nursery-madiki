@@ -10,17 +10,18 @@ body {
 /* Header */
 header {
   background-color: #222;
-  color: #333;
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: none;
 }
 
 header .header-title h1 {
   margin: 0;
   font-size: 22px;
+  color: white;
 }
 
 header nav {
@@ -29,7 +30,7 @@ header nav {
 }
 
 header nav a {
-  color: #333;
+  color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
@@ -252,7 +253,7 @@ header nav a:hover {
 
 /* Footer */ 
 footer {
-  background-color: #faf7f7;
+  background-color: #0a0a0a;
   color: white;
   padding: 20px;
   text-align: center; /* Center the text */
