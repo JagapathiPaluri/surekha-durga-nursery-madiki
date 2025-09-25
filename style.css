@@ -47,7 +47,7 @@ header nav a:hover {
   background-size: cover;
   height: 550px;
   display: flex;
-  align-items: center;
+  align-items: top;
   justify-content: flex-start;
   padding: 0 50px;
   position: relative;
